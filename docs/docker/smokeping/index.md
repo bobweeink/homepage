@@ -1,8 +1,8 @@
-# Install SmokePing using docker
+# Install smokeping using docker
 
-## About SmokePing
+## About smokeping
 
-[SmokePing](https://oss.oetiker.ch/smokeping/) is an awesome tool to measure latency and packet loss.
+[smokeping](https://oss.oetiker.ch/smokeping/) is an awesome tool to measure latency and packet loss.
 
 ## Installation steps
 
@@ -122,24 +122,23 @@ Open the database file with nano:
 ```console
 sudo nano Database
 ```
-[![smokeping database file in nano](./smokeping-database.png)](./smokeping-database.png)
 
+[![smokeping database file in nano](./smokeping-database.png)](./smokeping-database.png)
 
 Change the step = value to the value you like, I have mine set to 30.  
 Change the pings = value to the value you like, I have mine set to 20.  
-These value's tell smokeping to send 20 pings every 30 seconds.
+These values tell smokeping to send 20 pings every 30 seconds.
 
 Save the file in nano with CTRL+O  
 Hit Enter  
 Exit nano with CTRL+X
 
-SmokePing database [documentation](https://oss.oetiker.ch/smokeping/doc/smokeping_config.en.html) specifies the following regarding changing these values:
+smokeping database [documentation](https://oss.oetiker.ch/smokeping/doc/smokeping_config.en.html) specifies the following regarding changing these values:
 
 >Note that the step in the RRD files is fixed when they are originally generated, and if you change the step parameter afterwards, you'll have to delete the old RRD files or somehow convert them.
-
 >Note that the number of pings in the RRD files is fixed when they are originally generated, and if you change this parameter afterwards, you'll have to delete the old RRD files or somehow convert them.
 
-I choose the option to delete all data, since this is a brandnew installation of smokeping.
+I choose the option to delete all data, since this is a brand-new installation of smokeping.
 
 Change from current directory smokeping/config to the smokeping directory:
 
@@ -153,7 +152,7 @@ From the smokeping directory, shutdown the smokeping docker container with docke
 sudo docker compose down
 ```
 
-Lets check all files and directories:
+Let's check all files and directories:
 
 ```console
 dir
@@ -171,7 +170,7 @@ Delete the data directory with everything in it:
 rm -r data
 ```
 
-Lets check all files and directories:
+Let's check all files and directories:
 
 ```console
 dir
@@ -191,7 +190,7 @@ sudo docker compose up -d
 
 When the smokeping docker starts it automatically creates the data directory.
 
-Lets check all files and directories:
+Let's check all files and directories:
 
 ```console
 dir
