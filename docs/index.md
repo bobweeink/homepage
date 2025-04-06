@@ -1,6 +1,6 @@
 # Homepage of Bob Weeink
 
 Hello, and welcome to my homepage.  
-On this page I write documentation about interests of mine.
+Here I write documentation about interests of mine.
 
-I hope you enjoy your stay.
+![Picture of me](./BW-Picture-artstyle.png)
