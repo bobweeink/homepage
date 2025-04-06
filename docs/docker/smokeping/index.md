@@ -12,19 +12,19 @@ I use [KiTTY](https://www.9bis.net/kitty/index.html#!index.md) to ssh to my Linu
 
 Create a directory for all the smokeping files:
 
-```console
+```bash
 mkdir smokeping
 ```
 
 Move to directory smokeping:
 
-```console
+```bash
 cd smokeping
 ```
 
 Create docker compose file and open it with nano:
 
-```console
+```bash
 sudo nano docker-compose.yaml
 ```
 
@@ -69,7 +69,7 @@ Exit nano with CTRL+X
 
 Build, create and start with docker compose:
 
-```console
+```bash
 sudo docker compose up -d
 ```
 
@@ -89,37 +89,37 @@ This interval can be changed in the database file.
 
 From the smokeping directory let's do a dir to see the files and directories:
 
-```console
+```bash
 dir
 ```
 
 The following directories and files appears:
 
-```console
+```bash
 config  data  docker-compose.yaml
 ```
 
 Move to the config directory:
 
-```console
+```bash
 cd config
 ```
 
 Let's do a dir to see the files and directories:
 
-```console
+```bash
 dir
 ```
 
 The following directories and files appears:
 
-```console
+```bash
 Alerts  Database  General  httpd.conf  pathnames  Presentation  Probes  site-confs  Slaves  smokeping_secrets  ssmtp.conf  Targets
 ```
 
 Open the database file with nano:
 
-```console
+```bash
 sudo nano Database
 ```
 
@@ -142,49 +142,49 @@ I choose the option to delete all data, since this is a brand-new installation o
 
 Change from current directory smokeping/config to the smokeping directory:
 
-```console
+```bash
 cd ..
 ```
 
 From the smokeping directory, shutdown the smokeping docker container with docker compose:
 
-```console
+```bash
 sudo docker compose down
 ```
 
 Let's check all files and directories:
 
-```console
+```bash
 dir
 ```
 
 The following directories and files appears:
 
-```console
+```bash
 config  data  docker-compose.yaml
 ```
 
 Delete the data directory with everything in it:
 
-```console
+```bash
 rm -r data
 ```
 
 Let's check all files and directories:
 
-```console
+```bash
 dir
 ```
 
 The data directory is gone:
 
-```console
+```bash
 config  docker-compose.yaml
 ```
 
 Start the smokeping docker container with docker compose:
 
-```console
+```bash
 sudo docker compose up -d
 ```
 
@@ -192,13 +192,13 @@ When the smokeping docker starts it automatically creates the data directory.
 
 Let's check all files and directories:
 
-```console
+```bash
 dir
 ```
 
 The data directory is back:
 
-```console
+```bash
 config  data  docker-compose.yaml
 ```
 

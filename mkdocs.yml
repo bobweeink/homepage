@@ -21,6 +21,8 @@ theme:
     code: inconsolata
   logo: ./bw.png
   favicon: ./bw.png
+  icon:
+    repo: fontawesome/brands/github
   palette:
 #Palette for dark mode
     - scheme: slate
@@ -54,5 +56,8 @@ nav:
 - Docker Guides:
   - Install Docker: docker/index.md
   - Install SmokePing: docker/smokeping/index.md
+
+repo_url: https://github.com/bobweeink/homepage
+repo_name: bobweeink/homepage
 
 copyright: Copyright &copy; 2025 Bob Weeink
