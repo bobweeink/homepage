@@ -53,6 +53,6 @@ nav:
 - Home: index.md
 - Docker Guides:
   - Install Docker: docker/index.md
-  - SmokePing: docker/smokeping/index.md
+  - Install SmokePing: docker/smokeping/index.md
 
 copyright: Copyright &copy; 2025 Bob Weeink
