@@ -53,9 +53,10 @@ markdown_extensions:
 
 nav:
 - Home: index.md
-- Docker Guides:
-  - Install Docker: docker/index.md
-  - Install SmokePing: docker/smokeping/index.md
+- Docker:
+    - docker/index.md
+    - Install Docker: docker/installdocker/index.md
+    - Install SmokePing: docker/smokeping/index.md
 
 repo_url: https://github.com/bobweeink/homepage
 repo_name: bobweeink/homepage
