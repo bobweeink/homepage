@@ -27,14 +27,14 @@ theme:
       primary: deep purple
       accent: deep orange
       toggle:
-        icon: material/weather-night
+        icon: material/weather-sunny
         name: Switch to light mode
 #Palette for light mode
     - scheme: default
       primary: deep purple
       accent: deep orange
       toggle:
-        icon: material/weather-sunny 
+        icon: material/weather-night 
         name: Switch to dark mode
    
 markdown_extensions:
