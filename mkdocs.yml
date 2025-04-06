@@ -1,0 +1,58 @@
+site_name: BobWeeink
+site_url: https://bobweeink.com
+
+theme:
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - navigation.tracking
+    - navigation.instant
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - search.share
+  name: material
+  font:
+    text: ubuntu mono
+    code: inconsolata
+  logo: ./bw.png
+  favicon: ./bw.png
+  palette:
+#Palette for dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+#Palette for light mode
+    - scheme: default
+      primary: deep purple
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny 
+        name: Switch to dark mode
+   
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+
+nav:
+- Home: index.md
+- Docker Guides:
+  - Install Docker: docker/index.md
+  - SmokePing: docker/smokeping/index.md
+
+copyright: Copyright &copy; 2025 Bob Weeink
