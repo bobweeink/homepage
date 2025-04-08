@@ -1,16 +1,22 @@
-site_name: BobWeeink
+# Project information
+site_name: bobweeink
 site_url: https://bobweeink.com
+site_author: Bob Weeink
+site_description: Personal website of Bob Weeink
 
+# Configuration
 theme:
   language: en
   features:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
-    - navigation.path
-    - navigation.top
+#    - navigation.top
     - navigation.tracking
     - navigation.instant
+#    - navigation.indexes
+    - toc.follow
+    - toc.integrate
     - content.code.copy
     - search.suggest
     - search.highlight
@@ -19,26 +25,36 @@ theme:
   font:
     text: ubuntu mono
     code: inconsolata
-  logo: ./bw.png
-  favicon: ./bw.png
+  logo: /icons/bw.png
+  favicon: /icons/bw.png
   icon:
     repo: fontawesome/brands/github
   palette:
-#Palette for dark mode
+# Palette for dark mode
     - scheme: slate
       primary: deep purple
       accent: deep orange
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-#Palette for light mode
+# Palette for light mode
     - scheme: default
       primary: deep purple
       accent: deep orange
       toggle:
         icon: material/weather-night 
         name: Switch to dark mode
-   
+
+# Extra configuration
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/bobweeink
+    - icon: fontawesome/brands/github
+      link: https://github.com/bobweeink
+
+# Extensions
+# Syntax highlighting on code blocks    
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -47,18 +63,26 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+# Ability to align images, add captions to images (rendering them as figures), and mark large images for lazy-loading
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
 
+# Repository
+repo_url: https://github.com/bobweeink/homepage
+repo_name: bobweeink/homepage
+
+# Plugins
+plugins: 
+  - search
+
+# Copyright
+copyright: Copyright &copy; 2025 Bob Weeink
+
+# Page tree
 nav:
 - Home: index.md
 - Docker:
     - docker/index.md
-    - Install Docker: docker/installdocker/index.md
-    - Install SmokePing: docker/smokeping/index.md
-
-repo_url: https://github.com/bobweeink/homepage
-repo_name: bobweeink/homepage
-
-copyright: Copyright &copy; 2025 Bob Weeink
+    - Install Docker: docker/install-docker.md
+    - Install SmokePing: docker/install-smokeping.md

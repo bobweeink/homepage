@@ -1,6 +1,6 @@
 # Website of Bob Weeink
 
-Hello, and welcome to my website.  
-Here I write documentation about interests of mine.
+Hello, and welcome to my personal website.  
+Here I write about interests of mine.
 
-![Picture of me](./BW-Picture-artstyle.png)
+![Picture of me](./images/BW-Picture-artstyle.png)

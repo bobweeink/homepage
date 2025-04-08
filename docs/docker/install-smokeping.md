@@ -80,7 +80,7 @@ The -d option makes the container run in the background.
 Go to the IP address of the Linux docker host with port number 8080.  
 >My host has IP 192.168.1.30 so that translates to <http://192.168.1.30:8080>
 
-[![smokeping homepage](./smokeping-homepage.png)](./smokeping-homepage.png)
+[![smokeping homepage](./screenshots/smokeping-homepage.png)](./screenshots/smokeping-homepage.png)
 
 ## Change ping interval
 
@@ -123,7 +123,7 @@ Open the database file with nano:
 sudo nano Database
 ```
 
-[![smokeping database file in nano](./smokeping-database.png)](./smokeping-database.png)
+[![smokeping database file in nano](./screenshots/smokeping-database.png)](./screenshots/smokeping-database.png)
 
 Change the step = value to the value you like, I have mine set to 30.  
 Change the pings = value to the value you like, I have mine set to 20.  
