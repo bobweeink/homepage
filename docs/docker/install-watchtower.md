@@ -12,7 +12,6 @@ I want watchtower to send me notifications on Discord.
 You can signup for free on [Discord](https://discord.com/)  
 With your Discord account, you can create your own free Discord server with webhooks connected to tekst channels.  
 
-
 ## Installation steps
 
 SSH to your Linux docker host.
@@ -76,10 +75,11 @@ I want watchtower to run every night on 04:00:
       - WATCHTOWER_SCHEDULE=0 0 4 * * *
 ```
 
-
 When you copy your own Discord server webhook URL you get the following:
 
-https://discord.com/api/webhooks/**WEBHOOKID**/**TOKEN**
+```html
+https://discord.com/api/webhooks/WEBHOOKID/TOKEN
+```
 
 The watchtower docker compose yaml code wants the TOKEN first followed by the @ and then the WEBHOOKID:
 
