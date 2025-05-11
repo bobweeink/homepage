@@ -84,7 +84,7 @@ Go to the IP address of the Linux docker host with port number 8080.
 
 ## Change ping interval
 
-By default smokeping sends 20 pings every 300 seconds.  
+By default, smokeping sends 20 pings every 300 seconds.  
 This interval can be changed in the database file.
 
 From the smokeping directory let's do a dir to see the files and directories:
