@@ -1,4 +1,4 @@
-# Install watchtower with docker, and get notifications with Discord
+# Install watchtower using docker, and get notifications with Discord
 
 ## About watchtower
 
@@ -10,7 +10,7 @@
 
 I want watchtower to send me notifications on Discord.  
 You can signup for free on [Discord](https://discord.com/)  
-With your Discord account, you can create your own free Discord server with webhooks connected to tekst channels.  
+With your Discord account, you can create your own free Discord server with webhooks connected to tekst channels.
 
 ## Installation steps
 
