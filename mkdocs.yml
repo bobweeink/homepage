@@ -48,6 +48,8 @@ theme:
 # Extra configuration
 extra:
   social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@bobweeink
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/bobweeink
     - icon: fontawesome/brands/github
