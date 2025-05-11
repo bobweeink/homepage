@@ -10,25 +10,25 @@ SSH to your Linux docker host.
 
 I use [KiTTY](https://www.9bis.net/kitty/index.html#!index.md) to ssh to my Linux docker host.
 
-Create a directory for all the smokeping files:
+### Create a directory smokeping
 
 ```bash
 mkdir smokeping
 ```
 
-Move to directory smokeping:
+### Move to directory smokeping
 
 ```bash
 cd smokeping
 ```
 
-Create docker compose file and open it with nano:
+### Create docker compose file and open it with nano
 
 ```bash
 sudo nano docker-compose.yaml
 ```
 
-Configure the docker compose file.
+### Configure the docker compose file
 
 Paste the following yaml code into nano:
 
@@ -67,7 +67,7 @@ Save the file in nano with CTRL+O
 Hit Enter  
 Exit nano with CTRL+X
 
-Build, create and start with docker compose:
+### Build, create and start with docker compose
 
 ```bash
 sudo docker compose up -d
