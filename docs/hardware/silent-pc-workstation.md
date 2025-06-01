@@ -1,4 +1,6 @@
-# Silent PC Workstation - 2024/2025
+# Silent PC Workstation  
+
+Made in 2024/2025
 
 ## List of hardware
 
