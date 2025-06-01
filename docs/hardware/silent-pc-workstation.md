@@ -1,4 +1,4 @@
-# Silent PC Workstation - 2025
+# Silent PC Workstation - 2024/2025
 
 ## List of hardware
 
