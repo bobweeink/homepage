@@ -85,7 +85,10 @@ copyright: Copyright &copy; 2025 Bob Weeink
 nav:
 - Home: index.md
 - Docker:
-    - docker/index.md
+    - About Docker: docker/index.md
     - Install Docker: docker/install-docker.md
     - Install SmokePing: docker/install-smokeping.md
     - Install Watchtower: docker/install-watchtower.md
+- Hardware:
+    - About Hardware: hardware/index.md
+    - Silent PC Workstation: hardware/silent-pc-workstation.md
