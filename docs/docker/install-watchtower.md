@@ -48,6 +48,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
+      - DOCKER_API_VERSION=1.44
       - TZ=Europe/Amsterdam
       - WATCHTOWER_CLEANUP=true
       - WATCHTOWER_INCLUDE_STOPPED=true

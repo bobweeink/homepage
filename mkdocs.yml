@@ -93,6 +93,8 @@ nav:
     - Install Docker: docker/install-docker.md
     - Install SmokePing: docker/install-smokeping.md
     - Install Watchtower: docker/install-watchtower.md
+    - Install Beszel: docker/install-beszel.md
+    - Install Uptime Kuma: docker/install-uptime-kuma.md
 - Hardware:
     - About Hardware: hardware/index.md
     - Silent PC Workstation: hardware/silent-pc-workstation.md
