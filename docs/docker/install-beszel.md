@@ -68,12 +68,17 @@ Go to the IP address of the Linux docker host with port number 8090.
 I have beszel running on a raspberry pi, and noticed that it did not show the container statistics.  
 To fix this issue I used the following guide [Resolving Missing Memory Stats in Docker Stats on Raspberry Pi](https://akashrajpurohit.com/blog/resolving-missing-memory-stats-in-docker-stats-on-raspberry-pi/)  
 
+Open the file /boot/firmware/cmdline.txt with nano:
+
 ```bash
 sudo nano /boot/firmware/cmdline.txt
 ```
 
-added the following at the end of the line:
+add the following at the end of the line:
+
+```bash
 cgroup_enable=cpuset cgroup_enable=memory cgroup_memory=1  
+```
 
 Save the file in nano with CTRL+O  
 Hit Enter  
