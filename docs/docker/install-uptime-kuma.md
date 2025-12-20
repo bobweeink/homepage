@@ -37,7 +37,7 @@ Paste the following yaml code into nano:
 ```yaml
 services:
   uptime-kuma:
-    image: louislam/uptime-kuma:1
+    image: louislam/uptime-kuma:latest
     volumes:
       - ./data:/app/data
       - /var/run/docker.sock:/var/run/docker.sock
