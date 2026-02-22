@@ -2,7 +2,7 @@
 
 ## About watchtower
 
-[watchtower](https://containrrr.dev/watchtower/) is an awesome tool to update your docker containers automatically.
+[watchtower](https://containrrr.dev/watchtower/) is a tool to update your docker containers automatically.
 
 ## About Discord
 

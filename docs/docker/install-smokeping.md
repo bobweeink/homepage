@@ -2,7 +2,7 @@
 
 ## About smokeping
 
-[smokeping](https://oss.oetiker.ch/smokeping/) is an awesome tool to measure latency and packet loss.
+[smokeping](https://oss.oetiker.ch/smokeping/) is a tool to measure latency and packet loss.
 
 ## Installation steps
 

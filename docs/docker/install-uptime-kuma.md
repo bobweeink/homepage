@@ -2,7 +2,7 @@
 
 ## About uptime kuma
 
-[uptime kuma](https://uptimekuma.org/) is an awesome monitoring tool.
+[uptime kuma](https://uptimekuma.org/) is a monitoring tool.
 
 >Uptime Kuma is an open-source, free and easy-to-use self-hosted monitoring tool. Uptime Kuma is compatible with multiple platforms including Linux, Windows 10 (x64) and Windows Server.
 
@@ -69,7 +69,7 @@ sudo docker compose up -d
 
 The -d option makes the container run in the background.
 
-When the uptime kuma container is created and started, you can login on its webinterface  
+When the uptime kuma container is created and started, you can login on its webinterface.  
 
 ## uptime kuma homepage
 
