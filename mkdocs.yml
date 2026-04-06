@@ -98,3 +98,6 @@ nav:
 - Hardware:
     - About Hardware: hardware/index.md
     - Silent PC Workstation: hardware/silent-pc-workstation.md
+- Networking:
+    - About Networking: networking/index.md
+    - Ziggo and OPNsense: networking/ziggo-opnsense.md

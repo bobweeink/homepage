@@ -1,3 +1,3 @@
 # Website of Bob Weeink
 
-Hi there! Welcome to my website. Here, I write about the things that interest me.  
+Hi there! Welcome to my personal documentation website. I built this because my brain ran out of storage space.  
