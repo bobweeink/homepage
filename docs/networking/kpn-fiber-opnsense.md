@@ -58,7 +58,7 @@ Go to Interfaces > Overview and you should see that the KPN-fiber (wan) interfac
 [![KPN-fiber-wan-overview](./screenshots/kpn-fiber-wan-overview.png)](./screenshots/kpn-fiber-wan-overview.png)
 
 Here you will also see the IPv4 and IPv6 address the OPNsense KPN-fiber (wan) interface has received.  
-Important note here: The WAN interface will not receive a IPv6 address because KPN only sends a IPv6 prefix.  
+Important note here: The WAN interface will not receive a IPv6 GUA (Global Unicast Address) because KPN only sends a IPv6 prefix.  
 
 For IPv4 connectivity you are now good to go.  
 OPNsense will generate the outbound NAT rule for LAN to WAN [automatically](https://docs.opnsense.org/manual/nat.html)  
