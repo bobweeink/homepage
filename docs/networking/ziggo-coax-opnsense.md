@@ -1,6 +1,6 @@
 # Ziggo coax internet and OPNsense firewall  
 
-I want to use my Ziggo coax internet with my own OPNsense firewall, I want OPNsense to have the public IPv4 and IPv6 address of my Ziggo internet.  
+I want to use my Ziggo consumer coax internet with my own OPNsense firewall, I want OPNsense to have the public IPv4 and IPv6 address of my Ziggo internet.  
 
 The following is based on OPNsense version: 25.7.11_9-amd64  
 

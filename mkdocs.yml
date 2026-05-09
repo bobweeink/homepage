@@ -102,4 +102,4 @@ nav:
     - About Networking: networking/index.md
     - Ziggo coax and OPNsense: networking/ziggo-coax-opnsense.md
     - KPN fiber and OPNsense: networking/kpn-fiber-opnsense.md
-    - Ziggo coax internet vs KPN fiber internet: networking/ziggo-coax-vs-kpn-fiber.md
+    - Ziggo coax vs KPN fiber: networking/ziggo-coax-vs-kpn-fiber.md
