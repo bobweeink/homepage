@@ -100,6 +100,6 @@ nav:
     - Silent PC Workstation: hardware/silent-pc-workstation.md
 - Networking:
     - About Networking: networking/index.md
-    - Ziggo and OPNsense: networking/ziggo-coax-opnsense.md
+    - Ziggo coax and OPNsense: networking/ziggo-coax-opnsense.md
     - KPN fiber and OPNsense: networking/kpn-fiber-opnsense.md
     - Ziggo coax internet vs KPN fiber internet: networking/ziggo-coax-vs-kpn-fiber.md
