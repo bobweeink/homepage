@@ -1,6 +1,6 @@
-# Ziggo internet and OPNsense firewall  
+# Ziggo coax internet and OPNsense firewall  
 
-I want to use my Ziggo internet with my own OPNsense firewall, I want OPNsense to have the public IPv4 and IPv6 address of my Ziggo internet.  
+I want to use my Ziggo coax internet with my own OPNsense firewall, I want OPNsense to have the public IPv4 and IPv6 address of my Ziggo internet.  
 
 The following is based on OPNsense version: 25.7.11_9-amd64  
 
@@ -13,6 +13,9 @@ You can call Ziggo support to help you with this or through their app.
 ## OPNsense
 
 ### WAN interface configuration
+
+Ziggo uses DHCP and DHCPv6 to deliver internet on your WAN port.  
+Ziggo sends the traffic untagged out of the bridged modem, so no VLAN ID is necessary on your wan port.  
 
 Go to the WAN interface and use the following configuration:  
 
@@ -27,7 +30,8 @@ Go to Interfaces > Overview and you should see that the ZIGGO (wan) interface ha
 
 Here you will also see the IPv4 and IPv6 address the OPNsense ZIGGO (wan) interface has received through DHCP.  
 
-For IPv4 connectivity you are now good to go, OPNsense will generate the outbound NAT rule for LAN to WAN [automatically](https://docs.opnsense.org/manual/nat.html)  
+For IPv4 connectivity you are now good to go.  
+OPNsense will generate the outbound NAT rule for LAN to WAN [automatically](https://docs.opnsense.org/manual/nat.html)  
 
 ### IPv6 prefix
 
