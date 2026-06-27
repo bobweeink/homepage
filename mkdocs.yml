@@ -25,8 +25,8 @@ theme:
   font:
     text: ubuntu mono
     code: inconsolata
-  logo: /icons/dog-favicon.jpg
-  favicon: /icons/dog-favicon.jpg
+  logo: /icons/dogicon.jpg
+  favicon: /icons/dogicon.jpg
   icon:
     repo: fontawesome/brands/github
   palette:
