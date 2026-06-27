@@ -4,6 +4,10 @@
 
 [watchtower](https://containrrr.dev/watchtower/) is a tool to update your docker containers automatically.
 
+*update:*  
+*containrrr.dev/watchtower/ has been archived and is no longer maintained*  
+[link to of the announcement](https://github.com/containrrr/watchtower/discussions/2135)
+
 ## About Discord
 
 >Discord is an instant messaging and VoIP social platform which allows communication through voice calls, video calls, text messaging, and media. Communication can be private or take place in virtual communities called "servers"
