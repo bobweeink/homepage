@@ -60,10 +60,6 @@ markdown_extensions:
   - md_in_html
   - pymdownx.blocks.caption
 
-# Repository
-repo_url: https://github.com/bobweeink/homepage
-repo_name: bobweeink/homepage
-
 # Plugins
 plugins: 
   - search
